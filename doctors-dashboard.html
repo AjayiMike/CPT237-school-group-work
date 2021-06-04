@@ -118,11 +118,30 @@
           </div>
 
           <div class = "row my-5">
-               <h4 class = "ml-4">search patient by ID:</h4>
+               <h4 class = "ml-4">search patient by ID</h4>
                <div class = "col-sm-6">
                     <label for="patient-id" class="sr-only">patient id</label>
                     <input type="text" class="form-control p-4" id="patient-id" placeholder="Patient ID">
                     <button type="submit" class="btn my-3 border border-secondary">Search</button>
+               </div>
+          </div>
+
+          <div class = "row my-5">
+               <h4 class = "ml-4">create new patient</h4>
+               <div class = "col-sm-6">
+                    <label for="first-name" class="sr-only">First Name</label>
+                    <input type="text" class="form-control p-4 mb-5" id="first-name" placeholder="First Name">
+                    <label for="last-name" class="sr-only">Last Name</label>
+                    <input type="text" class="form-control p-4 mb-5" id="last-name" placeholder="Last Name">
+                    <label for="gender" class="sr-only">Gender</label>
+                    <select class="custom-select form-control mb-5" id="gender">
+                         <option value="Gender" selected>Gender</option>
+                         <option value="Male">Male</option>
+                         <option value="Female">Female</option>
+                    </select>
+                    <label for="age" class="sr-only">Age</label>
+                    <input type="number" class="form-control p-4 mb-5" id="age" placeholder="Age">
+                    <button type="submit" class="btn my-3 border border-secondary">Create</button>
                </div>
           </div>
      </main>
